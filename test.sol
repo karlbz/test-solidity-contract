@@ -20,7 +20,7 @@ contract TestCase {
         return("New Person Added!");
     }
 
-    function getLengthPeople()public returns(uint) {
+    function getLengthPeople() public returns(uint) {
         return(numPeople.length);
     }
 
